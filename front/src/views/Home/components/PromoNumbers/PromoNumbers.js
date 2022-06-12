@@ -18,7 +18,7 @@ const PromoNumbers = props => {
       <SectionHeader
         title={
           <span>
-            Our global class is open{' '}
+            Our services is open{' '}
             <Typography component="span" variant="inherit" color="primary">for all</Typography>
           </span>
         }

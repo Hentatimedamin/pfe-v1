@@ -353,14 +353,17 @@ useEffect(() => {
           
               {tags.map((item, index) => (
                 <Box  m={{xs:0.5,md:1}}  key={index} onClick={()=>clickTagHandler("/"+item.family)} > 
-                <Typography
-                variant="body2"
-                color="primary"
-                className={"/"+item.family===category ?classes.tagClicked:classes.tag}
-               
-              >
-                {item.family}
-              </Typography>
+                {
+                  item.family !== null &&
+                  <Typography
+                  variant="body2"
+                  color="primary"
+                  className={"/"+item.family===category ?classes.tagClicked:classes.tag}
+                 
+                >
+                  {item.family}
+                </Typography>
+                }
               </Box>
               ))}
              </Box>

@@ -18,11 +18,11 @@ const Categories = props => {
       <SectionHeader
         title={
           <span>
-            Choose your course by{' '}
+            Choose your service by{' '}
             <Typography color="secondary" variant="inherit" component="span">categories</Typography>
           </span>
         }
-        subtitle="Browse the available course categories, choose your favourite one and start learning."
+        subtitle="Browse the available service categories, choose your favourite one and start the journey."
         fadeUp
       />
       <Grid container spacing={isMd ? 4 : 2}>

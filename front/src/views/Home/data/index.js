@@ -4,9 +4,9 @@ export const promoNumbers = [
   {
     color: colors.blue,
     icon: 'fas fa-graduation-cap',
-    title: '1000+',
-    subtitle: 'Online Courses',
-    description: 'Choose from over 1000+ online video courses.',
+    title: '100+',
+    subtitle: 'year of exerience',
+    description: 'people trust our services for over a 100 year .',
   },
   {
     color: colors.purple,
@@ -19,15 +19,15 @@ export const promoNumbers = [
     color: colors.pink,
     icon: 'fas fa-user-graduate',
     title: '100K+',
-    subtitle: 'Active Students',
-    description: '100K+ active students arround the world.',
+    subtitle: 'Active members',
+    description: '100K+ active members arround the world.',
   },
   {
     color: colors.indigo,
     icon: 'fas fa-gift',
-    title: '400+',
-    subtitle: 'Free Resources',
-    description: 'Free resources for all students arround the world.',
+    title: '400+ ',
+    subtitle: 'services',
+    description: '+400 services for all members arround the world.',
   },
 ];
 

@@ -76,7 +76,7 @@ const Hero = props => {
         <Section narrow>
           <>
           <SectionHeader
-            title="Our Work"
+            title="Our Services"
             subtitle="We design & build products, tools, apps, and sites for companies trying to do great things for our planet."
             titleProps={{
               className: clsx(classes.textWhite, classes.fontWeightBold),
