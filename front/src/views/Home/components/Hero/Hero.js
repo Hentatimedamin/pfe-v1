@@ -65,7 +65,7 @@ const Hero = props => {
 Hero.propTypes = {
   /**
    * External classes
-   * f
+   * fdfghjklmù
    */
   className: PropTypes.string,
 };
